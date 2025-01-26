@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+@keyframes linecolorChange{
+    /* 0%{
+        scale: 0;
+    } */
+      25%{
+        scale: 0.5;
+        background-color: chocolate;
+      }
+    50%{
+        scale: 1;
+        background-color: cyan;
+    }
+    75%{
+        scale: 1.5;
+        background-color: rgb(217, 255, 0);
+    }
+    90%{
+        scale: 1;
+        background-color: rgb(217, 255, 0);
+    }
+}
+.main{
+    width: 700px;
+    height: 700px;
+    margin: 150px auto;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.line1{
+    width: 12px;
+    height: 300px;
+    background-color: blueviolet;
+    animation-name: linecolorChange;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.line2{
+    width: 12px;
+    height: 300px;
+    background-color: rgb(195, 226, 43); 
+    
+    animation-name: linecolorChange;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.line3{
+    width: 12px;
+    height: 300px;
+    background-color: rgb(202, 180, 178); 
+    animation-name: linecolorChange;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.line4{
+    width: 12px;
+    height: 300px;
+    background-color: rgb(43, 226, 80); 
+    animation-name: linecolorChange;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
